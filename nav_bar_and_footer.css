@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'myCustomFont';
+  src: url('AestheticRegular-8M5dM.ttf') format('truetype');
+  /* Add other formats if available for wider browser support */
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* nav-bar css */
+.navbar-custom{
+    background-color: #112622;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: sticky;
+    left: 0;
+    right:0; 
+    top: 0px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    
+}
+.logo{
+    margin:10px;
+
+}
+
+.logo-word{
+    margin-top: 20px;
+    align-self:left;
+    justify-items: left;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    line-height: 0;
+
+}
+
+
+    
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+a:link{
+    color: #ead8c3;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ead8c3;
+
+}
+
+a:hover{
+    color: #a69886;
+}
+
+a:active{
+    color: #A16D28;
+}
+a{
+  transition-duration: 0.5s;
+}
+
+.nav-items{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    font-family: 'myCustomFont';
+    position : absolute;
+    right: 15px; 
+    margin-top: 25px;
+       
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: large;
+}
+
+/* nav-bar css end*/
+
+
+
+/* footer css */
+.footer-custom{
+    background-color: #112622;
+}
+.footer-title-color{
+      color: #ead8c3;
+      font-family: 'myCustomFont';
+      font-size: medium;
+}
+
+.contact-info{
+      color: #ead8c3;
+      font-family: 'myCustomFont';
+      font-size: medium;
+}
+/* footer css end*/
+
+
+
+
+
+
+
+/* ABOUT US CSS */
+
+.middle-content{
+    background-color: #F2E9DC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center;
+    gap: 50px;
+    padding-top: 80px;
+    padding-left:auto ;
+    padding-right: auto;
+}
+.first-part-sections{
+    display: flex;
+    max-width: 1200px;
+    min-width: 800px;
+    gap: 30px;
+}
+
+.first-part-img{
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: 5px solid #112622;
+}
+
+.about-text{
+    align-content: stretch;
+    align-content: center;
+}
+
+.team-members{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 50px 50px 400px 100px;
+    grid-template-rows: repeat(4, 200px);
+    gap: 100px;
+    padding-bottom: 20%;
+}
+
+.member-photo{
+    border-radius: 50%;
+}
+
+.first-member{
+    grid-area: 1/1/2/2;
+}
+.second-member{
+    grid-area: 2/1/3/2;
+}
+.third-member{
+    grid-area: 3/1/4/2;
+}
+.fourth-member{
+    grid-area: 4/1/5/2;
+}
+
+
+.second-half{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;    
+    gap:30px;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 5%;
+    
+}
+
+.second-half h1{
+    grid-area: 1/1/2/-1;
+    text-align: center;
+}
+
+.buttons{
+    background-color: #F2E9DC;
+    height: 150px;
+    width: 200px;
+    color:#112622;
+    border: 2px solid #112622;
+}
+
+.who-button{
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    grid-area: 2/3/3/4;
+}
+.mission-button{
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    grid-area: 2/4/3/5;
+}
+.vision-button{
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    grid-area: 2/5/3/6;
+}
+
+.second-half p{
+    max-width: 1200px;
+    min-width: 800px;
+    grid-area: 3/2/4/7;
+    padding:20px;
+    border: 2px solid #112622;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+
+button:hover{
+    color: #ead8c3;
+    background-color: #112622;
+}
+
+.lastpart{
+    margin-bottom:100px ;
+}
+/* #mission{
+    display: flex;
+    max-width: 1200px;
+    min-width: 800px;
+    gap: 30px;
+}
+#vision{
+    display: flex;
+    max-width: 1200px;
+    min-width: 800px;
+    gap: 30px;
+} */
+
+
+
+
+
+/* ABOUT US CSS END */
+
