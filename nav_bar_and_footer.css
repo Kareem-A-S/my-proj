@@ -258,9 +258,9 @@ button:hover{
 @media (max-width: 991px) {
 .second-half{
     display: grid;
-    grid-template-columns:170px minmax(230px , 400px);
+    grid-template-columns:170px minmax(200px , 400px);
     grid-template-rows: 1fr 1fr 1fr 1fr;    
-    gap:30px;
+    gap:10px;
     margin-left:5%;
     margin-right: 5%;
     padding: 0%;
